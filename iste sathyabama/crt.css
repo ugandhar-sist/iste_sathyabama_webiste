@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+    position: relative;
+}
+
+#search-bar {
+    margin-left: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(9, 0, 255, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+.event {
+    margin-bottom: 30px;
+}
+
+.event-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.certificate {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.certificate:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive layout adjustments */
+@media (min-width: 768px) {
+    .event {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .certificate {
+        width: calc(25% - 20px); /* Adjust the width as needed, considering margin */
+        margin-bottom: 20px;
+    }
+}
+hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 2px solid #0a1d9a;
+}
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificate-box {
+    width: calc(50% - 20px); /* Two boxes per row with a little gap between */
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/* For devices with a screen width less than 500px */
+@media (max-width: 500px) {
+    .certificate-box {
+        width: calc(100% - 20px); /* One box per row */
+    }
+}
+
+/* For devices with a screen width between 501px and 768px */
+@media (min-width: 501px) and (max-width: 768px) {
+    .certificate-box {
+        width: calc(50% - 20px); /* Two boxes per row */
+    }
+}
+
+/* For devices with a screen width of 769px or higher (tablets and desktops) */
+@media (min-width: 769px) {
+    .certificate-box {
+        width: calc(20% - 20px); /* Five boxes per row */
+    }
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.certificate-id {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.download-btn {
+    display: block;
+    width: 160px; /* Adjust width as needed */
+    margin: auto; /* Center the button horizontally */
+    margin-bottom: 1px; /* 5px above the bottom of the box */
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+
+.download-btn:hover {
+    background-color: #007396; /* New hover color */
+}
+.redirect-button {
+    background-color: #1641c3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+    background-color: #277f9d; /* Darker green on hover */
+}
+
+@media screen and (max-width: 600px) {
+    .redirect-button {
+        padding: 10px 20px;
+    }
+}
+

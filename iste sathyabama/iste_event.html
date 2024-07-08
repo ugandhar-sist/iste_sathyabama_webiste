@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENTS</title>
+    <link rel="shortcut icon" href="./iste_logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="iste_event.css" />
+    <style>
+        .bc {
+            border: 5px solid black; /* You can adjust the width and color of the border */
+            border-radius: 10px; /* Adjust the radius to control the roundness of the corners */
+            box-sizing: border-box; /* Include the border in the total width/height of the image */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- navabar starts -->
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container_1">
+              <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand logo" href="./index.html"
+                      ><img
+                        src="./img/iste_logo.png"
+                        alt=""
+                        data-aos="zoom-in"
+                        data-aos-duration="10000"
+                        data-aos-delay="600"
+                    /></a>
+                    <!-- <a class="ddue" href="/" target="_blank"
+                      ><img
+                        src="./img/srm_logo.png"
+                        class="iste_logo"
+                        alt=""
+                        data-aos="zoom-in"
+                        data-aos-duration="10000"
+                        data-aos-delay="600"
+                        style="height: 50px"
+                    /></a> -->
+    
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navbar-nav ml-auto py-4 py-md-0">
+                        
+                        </li>
+
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                            <a
+                              class="nav-link"
+                              href="./index.html"
+                              data-aos="zoom-in"
+                              data-aos-duration="9000"
+                              data-aos-delay="500"
+                              >HOME</a
+                            >
+                          </li>
+
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                          <a
+                            class="nav-link"
+                            href="./iste_team.html"
+                            data-aos="zoom-in"
+                            data-aos-duration="9000"
+                            data-aos-delay="500"
+                            >TEAM</a
+                          >
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                            <a class="nav-link" href="./iste_gallery.html" data-aos="zoom-in" data-aos-duration="9000"
+                              data-aos-delay="500">GALLERY</a>
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                          <a
+                            class="nav-link"
+                            href="./certificates.html"
+                            data-aos="zoom-in"
+                            data-aos-duration="9000"
+                            data-aos-delay="500"
+                            >CERTIFICATES</a
+                          >
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                            <a
+                              class="nav-link"
+                              href="./Registration.html"
+                              data-aos="zoom-in"
+                              data-aos-duration="9000"
+                              data-aos-delay="500"
+                              >REGISTRATION</a
+                            >
+                          </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                            <a
+                              class="nav-link"
+                              href="./feedback.html"
+                              data-aos="zoom-in"
+                              data-aos-duration="9000"
+                              data-aos-delay="500"
+                              >FEEDBACK</a
+                            >
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <!-- NAVBAR ENDS -->
+
+
+    <div class="heading_box container_1">
+        <div class="event_heading text-center" data-aos="zoom-in" data-aos-duration="9000" data-aos-delay="500">
+            Events
+        </div>
+    </div>
+
+    <div class="container_1 event_box">
+        <div class="page-event">
+
+            <div class="upcoming-sec">
+                <div class="heading">Upcoming Events</div>
+            </div>
+            <!--start-->
+            <div class="upcoming-event-list " data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                <div class="event-block">
+                    <div class="row">
+                        <div class="col-lg-2 sec-1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="month">XX</div>
+                                        <div class="month-date-devider"></div>
+                                        <div class="date">XX</div>
+                                        <div class="Year">
+                                            <h2>20XX</h2></div>
+                                    </td>
+                                    <td class="title"><b>NA (Title)</b></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-lg-5 sec-2">
+                            <img
+                                src="./cs1.gif"  />
+                        </div>
+                        <div class="col-lg-5 sec-3">
+                            <div class="title" style="color: black;"><b>NA (Title)</b></div>
+                            <div class="venue">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)"><b>Organizers:<br></b>
+                                            NA<br>
+                                            NA<br>
+                                            </div><br>
+
+                                        </td>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">NA (Location)</div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="time">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">NA (Time) </div>
+                                            <div data-livestamp="1517054400" class="dim-color"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">NA (Description)
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--end-->
+                
+            <div class="upcoming-sec">
+                <div class="heading">Past Events</div>
+            </div>
+            <div class="upcoming-event-list " data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                <div class="event-block">
+                    <div class="row">
+                        <div class="col-lg-2 sec-1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="month">Apr</div>
+                                        <div class="month-date-devider"></div>
+                                        <div class="date">05</div>
+                                        <div class="Year">
+                                            <h2>2024</h2></div>
+                                    </td>
+                                    <td class="title"><b>Exploring Digital CMOS VLSI Design</b></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-lg-5 sec-2">
+                            <img
+                                src="./EDCVD.png"  class="bc"/>
+                        </div>
+                        <div class="col-lg-5 sec-3">
+                            <div class="title" style="color: black;"><b>Exploring Digital CMOS VLSI Design</b></div>
+                            <div class="venue">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)"><b>Organizers:<br></b>
+                                            V Ugandhar<br>
+                                            Kaushik<br>
+                                            Srinidhi M R <br>
+                                            </div><br>
+
+                                            <div style="color:rgb(78, 74, 74)"><b>Speaker:<br></b>
+                                                N U Surya Kiran<br>
+                                                </div><br>
+
+                                        </td>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">IRC Auditorium</div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="time">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">April 5<sup>th</sup> 2024, 10 AM </div>
+                                            <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                            <div data-livestamp="1517054400" class="dim-color"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">Immerse yourself in the world of Digital CMOS VLSI Design with our one-day workshop, presented by the ISTE Student Chapter and the Department of Electronics and Communication Engineering.
+
+                                Gain a deep understanding of CMOS VLSI design fundamentals and hands-on experience building basic gates using CMOS devices. Engage in interactive sessions with industry experts and expand your professional network.
+                                
+                                This inaugural event in our department promises a unique opportunity for learning and growth. Limited seats available, so register now to secure your spot!
+                                
+                                For registration and more information, contact us or visit our website. Don't miss out on this chance to enhance your skills in Digital CMOS VLSI Design!
+                                <!--p><a href="./Registration.html">Click here</a> to Register<br>
+                                <a href="https://istesathyabama.netlify.app/feedback">Click Here</a> to give us feedback</p-->
+                                <!--iframe src="https://links.collect.chat/65ec8aa472474ab9834eed92"  width="100%" height="600" frameBorder="0"></iframe><script async type="text/javascript" src="https://collectcdn.com/embed.js"></script-->
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            <div class="upcoming-event-list " data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                <div class="event-block">
+                    <div class="row">
+                        <div class="col-lg-2 sec-1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="month">Mar</div>
+                                        <div class="month-date-devider"></div>
+                                        <div class="date">13</div>
+                                        <div class="Year">
+                                            <h2>2024</h2></div>
+                                    </td>
+                                    <td class="title"><b>Unleashing Creativity Using Tinkercad</b></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-lg-5 sec-2">
+                            <img
+                                src="./ardunio workshop.png" class="bc" />
+                        </div>
+                        <div class="col-lg-5 sec-3">
+                            <div class="title" style="color: black;"><b>Unleashing Creativity Using Tinkercad</b></div>
+                            <div class="venue">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)"><b>Organizers:<br></b>
+                                            Srinidhi MR<br>
+                                            Sujitra A<br>
+                                            </div><br>
+
+                                        </td>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">IRC Auditorium</div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="time">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">Mar 13<sup>th</sup> to Mar 14<sup>th</sup> </div>
+                                            <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                            <div data-livestamp="1517054400" class="dim-color"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">Discover the dynamic duo of Arduino and Tinkercad in our two-day workshop! Day one immerses you in Arduino's fundamentals, from applications to simulation techniques using Tinkercad. Get hands-on and master Arduino simulation like a pro!
+
+                                Day two takes you deeper into the world of sensors, exploring their diverse applications and integrating them into exciting mini projects. Gain practical experience and unleash your creativity with different sensor types.
+                                
+                                Cap off the workshop with a thrilling quiz session, putting your newfound knowledge to the test and competing for the title of workshop champion. Don't miss out on this opportunity to learn, create, and have fun!
+                                <!--p><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9cr1sQ2QLj3Ys-CFS2cYjZ0U0-AkltKnvNYEwUMcutAlrUw/viewform">Click here</a> to Register<br>
+                                <a href="https://istesathyabama.netlify.app/feedback">Click Here</a> to give us feedback</p-->
+                                <!--iframe src="https://links.collect.chat/65ec8aa472474ab9834eed92"  width="100%" height="600" frameBorder="0"></iframe><script async type="text/javascript" src="https://collectcdn.com/embed.js"></script-->
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="upcoming-event-list " data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                <div class="event-block">
+                    <div class="row">
+                        <div class="col-lg-2 sec-1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="month">AUG</div>
+                                        <div class="month-date-devider"></div>
+                                        <div class="date">30</div>
+                                        <div class="Year">
+                                            <h2>2023</h2></div>
+                                    </td>
+                                    <td class="title">Techno Fussion</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-lg-5 sec-2">
+                            <img
+                            
+                                src="./tf.png" class="bc">
+                        </div>
+                        <div class="col-lg-5 sec-3">
+                            <div class="title" style="color: black;"><b>Techno Fussion</b></div>
+                            <div class="venue">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)"><b>Organizers:<br></b>
+                                            ISTE Office Bearers</div><br>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">IRC Auditorium</div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="time">
+                                <table>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o"></i></td>
+                                        <td>
+                                            <div style="color:rgb(78, 74, 74)">AUG 30<sup>th</sup> to SEP 1<sup>st</sup></div>
+                                            <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                            <div data-livestamp="1517054400" class="dim-color"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">Techno Fusion 2k23 is an exciting technology event featuring three sub-events that cater to diverse skills and interests.<br><br><br><br>
+
+                                The first sub-event, Quandary Quest, is a quiz competition spanning three rounds. Round 1 involves general questions, Round 2 is a picture quiz, and Round 3 combines various elements to challenge participants.<br><br><br><br>
+                                
+                                The second sub-event, Quest of the Golden Slide, requires participants to create presentations on given topics related to the Internet of Things (IoT). This encourages students to showcase their research, innovative thinking, and presentation skills.<br><br><br><br>
+                                
+                                The third sub-event, Code Craft, is a coding competition conducted through HackerRank. This event provides a platform for participants to demonstrate their coding prowess and problem-solving abilities.</div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container_1 event_box">
+        <div class="page-event">
+
+                    <!-- <div class="upcoming-sec">
+                        <div class="heading">Past Events</div>
+                    </div> -->
+
+                    <div class="upcoming-event-list" data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                        <div class="event-block">
+                            <div class="row">
+                                <div class="col-lg-2 sec-1">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="month">July</div>
+                                                <div class="month-date-devider"></div>
+                                                <div class="date">26</div>
+                                                <div class="Year">
+                                                    <h2>2023</h2></div>
+                                            </td>
+                                            <td class="title"><b>Election for 2023-2024 </b></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-5 sec-2">
+                                    <img
+                                        src="./cir.png" class="bc" />
+                                </div>
+                                <div class="col-lg-5 sec-3">
+                                    <div class="title" style="color: black;"><b>Election for 2023-2024</b></div>
+                                    <div class="venue">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">AIC LAB ECE Department</div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="time">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-clock-o"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">1:15 pm to 3:15 pm </div>
+                                                    <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                                    <div data-livestamp="1517054400" class="dim-color"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px"> The ISTE Election 2023-2024 is poised to be a pivotal moment in our journey as we select the torchbearers for the upcoming academic year. This democratic process allows us to handpick the leaders who will guide and represent our dynamic student body in the realm of technology and engineering.<br><br>
+
+                                        Much like the Exaltation 2023, where we bid a heartfelt farewell to the outgoing ISTE team of the batch 2022-2023, the election process symbolizes a seamless transition of responsibility. It is an opportunity for aspiring leaders to step forward, share their vision, and contribute to the growth and success of the ISTE community.<br><br>
+                                        
+                                        This election, conducted with the utmost transparency and fairness, acknowledges the diverse talents and perspectives within our student body. It is a chance for students to actively participate in shaping the future of ISTE, ensuring that the elected team resonates with the aspirations and needs of our ever-evolving academic environment.<br><br>
+                                        
+                                        As we embark on this democratic journey, let us celebrate the spirit of leadership and innovation that defines ISTE. May the incoming team carry the torch of excellence, foster a sense of community, and contribute to the continued success of our esteemed institution. Best wishes to all the candidates, and may the ISTE Election 2023-2024 mark the beginning of another chapter of inspiration and progress..</div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- <div class="upcoming-event-list" data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                        <div class="event-block">
+                            <div class="row">
+                                <div class="col-lg-2 sec-1">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="month">Aug</div>
+                                                <div class="month-date-devider"></div>
+                                                <div class="date">7</div>
+                                                <div class="Year">
+                                                    <h2>2023</h2></div>
+                                            </td>
+                                            <td class="title">Heading_1</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-5 sec-2">
+                                    <img
+                                        src="./img/attic_ind_visit/c.jpeg" />
+                                </div>
+                                <div class="col-lg-5 sec-3">
+                                    <div class="title" style="color: black;"><b>Alttc Industrial Visit</b></div>
+                                    <div class="venue">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)"></div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="time">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-clock-o"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)"></div>
+                                                    <div>Saturday, Jan 27, 2018 at 5:30 PM</div> 
+                                                    <div data-livestamp="1517054400" class="dim-color"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px"></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+
+
+
+                    <!-- <div class="upcoming-event-list" data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                        <div class="event-block">
+                            <div class="row">
+                                <div class="col-lg-2 sec-1">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="month">Aug</div>
+                                                <div class="month-date-devider"></div>
+                                                <div class="date">7</div>
+                                                <div class="Year">
+                                                    <h2>2023</h2></div>
+                                            </td>
+                                            <td class="title">Heading_1</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-5 sec-2">
+                                    <img
+                                        src="./img/Mother Dairy Visit/b.jpeg" />
+                                </div>
+                                <div class="col-lg-5 sec-3">
+                                    <div class="title" style="color: black;"><b>Mother Diary Visit</b></div>
+                                    <div class="venue">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">Disorder</div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="time">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-clock-o"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)"> </div>
+                                                    <div>Saturday, Jan 27, 2018 at 5:30 PM</div> 
+                                                    <div data-livestamp="1517054400" class="dim-color"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px"></div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                    <div class="upcoming-event-list" data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                        <div class="event-block">
+                            <div class="row">
+                                <div class="col-lg-2 sec-1">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="month">Jul</div>
+                                                <div class="month-date-devider"></div>
+                                                <div class="date">7</div>
+                                                <div class="Year">
+                                                    <h2>2023</h2></div>
+                                            </td>
+                                            <td class="title"><b>New batch registrations</b></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-5 sec-2">
+                                    <img
+                                        src="./reg.png" class="bc" />
+                                </div>
+                                <div class="col-lg-5 sec-3">
+                                    <div class="title" style="color: black;"><b>New batch registrations</b></div>
+                                    <div class="venue">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">Online</div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="time">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-clock-o"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">July 7<sup>th</sup> 2023 </div>
+                                                    <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                                    <div data-livestamp="1517054400" class="dim-color"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">Exciting news for the incoming batch! ISTE registrations for the years 2023 to 2027 are now open, offering a golden opportunity for budding technocrats to join our dynamic community.<br><br> With a nominal fee of 300 per person for the entire four-year journey, this registration unlocks a wealth of possibilities in the realm of technology, innovation, and camaraderie.<br><br>
+
+                                        As you embark on your academic adventure, the ISTE membership ensures exclusive access to a plethora of resources, workshops, and events tailored to enrich your learning experience. Engage with like-minded peers, stay updated on industry trends, and pave the way for your future in technology.<br><br>
+                                        
+                                        Don't miss out on this chance to be a part of the ISTE family. Register today, invest in your academic growth, and let the next four years be a journey of exploration, learning, and unparalleled opportunities. Welcome to the ISTE community of innovation!
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upcoming-event-list" data-aos="zoom-out" data-aos-duration="9000" data-aos-delay="500">
+                        <div class="event-block">
+                            <div class="row">
+                                <div class="col-lg-2 sec-1">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div class="month">May</div>
+                                                <div class="month-date-devider"></div>
+                                                <div class="date">9</div>
+                                                <div class="Year">
+                                                    <h2>2023</h2></div>
+                                            </td>
+                                            <td class="title"><b>IOT Prototyping with Arduino</b></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-lg-5 sec-2">
+                                    <img
+                                        src="./event.png" class="bc" />
+                                </div>
+                                <div class="col-lg-5 sec-3">
+                                    <div class="title" style="color: black;"><b>IOT Prototypin with Arduino</b></div>
+                                    <div class="venue">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)"><b>Organizers:<br></b>
+                                                    Ugandhar<br>
+                                                    Surya Kiran<br>
+                                                    Shaila</div><br>
+        
+                                                </td>
+                                            <tr>
+                                                <td><i class="fa fa-map-marker"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">Intelligent & Computing lab</div>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="time">
+                                        <table>
+                                            <tr>
+                                                <td><i class="fa fa-clock-o"></i></td>
+                                                <td>
+                                                    <div style="color:rgb(78, 74, 74)">May 9<sup>th</sup> to May 13<sup>th</sup> </div>
+                                                    <!-- <div>Saturday, Jan 27, 2018 at 5:30 PM</div> -->
+                                                    <div data-livestamp="1517054400" class="dim-color"></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sort-story" style="color:rgb(78, 74, 74);font-size: 18px">Embark on a transformative learning journey with our upcoming 5-day workshop on IoT Prototyping with Arduino! This immersive experience is designed to empower participants with hands-on skills in Internet of Things (IoT) technology, using the versatile Arduino platform.<br><br>
+
+                                        Throughout the workshop, attendees can expect a dynamic blend of live sessions and practical hands-on exercises. <br><br>Our expert instructors will guide you through the intricacies of IoT prototyping, providing valuable insights and real-world applications. Engage in live discussions to deepen your understanding and stay connected with the latest industry trends.<br><br>
+                                        
+                                        The practical sessions will be the heart of the workshop, allowing participants to apply their newfound knowledge in real-time. Work with Arduino boards, sensors, and actuators to bring IoT concepts to life.<br><br> By the end of the 5 days, you'll not only grasp the theoretical foundations of IoT but also have the practical skills to develop your own Arduino-based prototypes.<br><br>
+                                        
+                                        Join us on this exciting journey where theory meets practice, and innovation takes center stage. Secure your spot for an enriching workshop experience that promises to expand your horizons in the world of IoT and Arduino prototyping. Let's build the future together!
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <center><b>Apologies for the inconvenience, but it seems the old event posters are currently missing. No worries, though! We're on the case and working diligently to recover them. In the meantime, if you're eager to explore our rich history of past events, feel free to check out our social media handles below. Your curiosity is just a click away from uncovering a treasure trove of memorable moments!</b></center>
+    <!-- footer starts -->
+    <footer class="container_1 material_box_5" id="footer_section">
+        <div class="footer_heading" data-aos="zoom-in" data-aos-duration="9000" data-aos-delay="300">
+          <h1>Get In Touch</h1>
+        </div>
+        <div class="container pt-4 text-center text-white">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" data-aos="zoom-in" data-aos-duration="9000"
+              data-aos-delay="300" href="https://www.linkedin.com/in/iste-student-s-chapter-sathyabama-191720288/" target="_blank" role="button"
+              data-mdb-ripple-color="dark"><img src="./img/linkedin.png" alt="" /></a>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" data-aos="zoom-in" data-aos-duration="9000"
+              data-aos-delay="300" href="https://www.instagram.com/iste_studentchaptersist/" target="_blank" role="button"
+              data-mdb-ripple-color="dark"><img src="./img/inst.png" alt="" /></a>
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" data-aos="zoom-in" data-aos-duration="9000"
+              data-aos-delay="300" href="mailto:istestudentchaptersathyabama@gmail.com" target="_blank" role="button"
+              data-mdb-ripple-color="dark"><img src="./mail.svg" height="80px" alt="" /></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <div class="copyright">
+          ⓒ Copyrights 2024 by ISTE SIST. All Rights Reserved.
+        </div>
+        <div class="copyright">
+            Designed and Developed by <a href="https://vhrgroups.netlify.app">VHR GROUPS<!--img src="./vhr-high-resolution-logo-black-transparent.png" height="57" width="167"--></a>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+        crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="iste_home.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

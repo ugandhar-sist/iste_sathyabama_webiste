@@ -1,0 +1,41 @@
+.redirect-button {
+    background-color: #1641c3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+    background-color: #2bc046; /* Darker green on hover */
+}
+
+.redirect-button-1 {
+    background-color: #e3e609; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.redirect-button-1:hover {
+    background-color: #2bc046; /* Darker green on hover */
+}
+@media screen and (max-width: 600px) {
+    .redirect-button {
+        padding: 10px 20px;
+    }
+}
